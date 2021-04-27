@@ -1,0 +1,106 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+font-size:2em;
+  text-align: center;
+
+}
+
+h2 {
+
+width: 140px; height: 24px;
+
+position: absolute; right: 0; 
+ margin-top: 0px; 
+ border-left:  2px solid black; border-bottom: 2px solid black; 
+
+font-size:  1.25em;
+  font-family: helvetica;
+  color: black;
+  text-align: center
+}
+
+
+p {
+margin-top: 35px;
+margin-left: 5px;
+margin-right: 5px;
+font-family: helvetica;
+color: black;
+font-size: 1em
+padding: 5px}
+
+
+#container1 {
+	box-sizing: border-box;
+position: relative; 
+left: 3%;
+right: 3%;
+  width: 30%;
+  border: 2px solid black;
+  background-color: grey;
+  float: left;
+  margin-right: 2%
+}
+
+#container2 {
+position: relative; 
+left: 3%;
+right: 3%;
+  width: 30%;
+  border: 2px solid black;
+  background-color: grey;
+  float: left;
+  margin-right: 2%
+
+}
+
+
+#container3 {
+position: relative; 
+left: 3%;
+right: 3%;
+  width: 30%;
+  border: 2px solid black;
+  background-color: grey;
+  float: left;
+  margin-right: 2%
+
+}
+
+
+
+
+#header1 {
+background-color: #D59998;
+}
+
+#header2 {
+  background-color: #C14543; 
+}
+
+#header3 {
+ background-color: #E5D198;  }
+
+
+/********** Medium Device only **********/
+@media (min-width: 768px) and (max-width: 991px)
+{
+#container1 { width: 45%; margin-bottom: 2%}
+#container2 { width: 45%; margin-bottom: 2%}
+#container3 { width: 92%}
+
+}
+
+
+
+/********** Small Device only **********/
+@media (max-width: 767px)
+{
+#container1 { width: 92%; margin-bottom: 2%}
+#container2 { width: 92%; margin-bottom: 2%}
+#container3 { width: 92%; margin-bottom: 2%}
+
+}
