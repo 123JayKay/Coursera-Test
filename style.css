@@ -15,11 +15,6 @@ width: 140px; height: 24px;
 position: absolute; right: 0; 
  margin-top: 0px; 
  border-left:  2px solid black; border-bottom: 2px solid black; 
-
-font-size:  1.25em;
-  font-family: helvetica;
-  color: black;
-  text-align: center
 }
 
 
@@ -74,15 +69,24 @@ right: 3%;
 
 
 #header1 {
-background-color: #D59998;
+background-color: #D59998; font-size:  1.25em;
+  font-family: helvetica;
+  color: black;
+  text-align: center
 }
 
 #header2 {
-  background-color: #C14543; 
+  background-color: #C14543; font-size:  1.25em;
+  font-family: helvetica;
+  color: white;
+  text-align: center 
 }
 
 #header3 {
- background-color: #E5D198;  }
+ background-color: #E5D198; font-size:  1.25em;
+  font-family: helvetica;
+  color: black;
+  text-align: center  }
 
 
 /********** Medium Device only **********/
