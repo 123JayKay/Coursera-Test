@@ -22,12 +22,6 @@ li {
 font-size: 20px;
 }
 
-a {
-padding-top: 80px;
-
-}
-
-
 #header-nav {
   background-color: grey;
   border-radius: 0;
@@ -109,11 +103,6 @@ p {font-size: 15px;
 {
   .navbar-toggle {
     display: none;}
-
-
-h2 {
-padding-top: 20px;
-}
 
   }
 
