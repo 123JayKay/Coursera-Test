@@ -110,8 +110,4 @@ p {font-size: 15px;
 @media (min-width: 992px) 
 {
 
-  .navbar-brand h1 { 
-padding-top: 10px;
-}
-
   }
