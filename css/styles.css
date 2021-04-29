@@ -1,0 +1,128 @@
+body {
+
+  font-size: 20px;
+  color: black;
+  background-color: white;
+
+}
+
+h2 {
+font-size: 30px;
+padding-top: 80px;
+}
+
+h3 {
+
+font-size: 20px;
+
+}
+
+
+li {
+font-size: 20px;
+}
+
+a {
+padding-top: 80px;
+
+}
+
+
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+}
+
+#nav-list {
+margin-top: 0px;
+background-color: white;
+  border: 2px solid black;
+
+}
+
+#navigation {
+  border-bottom: 2px solid black;
+
+}
+
+
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 { 
+	color: black;
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+
+
+#containertext {
+position: relative; 
+left: 2%;
+right: 2%;
+  width: 96%;
+  padding: 20px;
+   background-color: lightgrey;
+  margin-right: 2%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+#containeraboutus {
+position: relative; 
+left: 15%;
+right: 15%;
+  width: 70%;
+  padding: 20px;
+   background-color: white;
+    margin-right: 2%;
+      margin-bottom: 20px;
+}
+
+
+.navbar-header {
+
+margin: 10px;
+
+}
+
+@media (max-width: 480px) 
+{
+
+.navbar-brand h1 {font-size: 30px;}
+h2 {font-size: 25px;
+}
+p {font-size: 15px;
+  }
+}
+
+
+
+@media (min-width: 480px) 
+{
+  .navbar-toggle {
+    display: none;}
+
+
+h2 {
+padding-top: 100px;
+}
+
+  }
+
+
+@media (min-width: 992px) 
+{
+
+  .navbar-brand h1 { 
+padding-top: 10px;
+}
+
+  }
